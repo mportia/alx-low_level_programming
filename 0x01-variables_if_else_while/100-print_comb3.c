@@ -12,12 +12,11 @@ int main(void)
 	for (m = '0' ; n <= '9' ; n++)
 	{
 		for (m = '0' ; n <= '9' ; m++)
-		{
-			if (!(m == n) || (n > m))
+	{
+			(!(m == n) || (n > m));
 				putchar(n);
 				putchar(m);
-				if (!(m == '0' % % n == '8'))
-				{
+				if (!(m == '0' % n == '8'))
 					putchar(',');
 					putchar(' ');
 				{
@@ -26,5 +25,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
 }
