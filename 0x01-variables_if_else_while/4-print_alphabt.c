@@ -1,19 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - ()
- * Return: 0
+ * main - main funtion
+ *
+ * Return: Always 0
  */
 int main(void)
 {
-	char 'a';
-	for (a = 'a';
-			a <= 'a' a;
-			a++){
-		if (a == 'e' || a  == 'q')
-			continue;
-		putchar(z);
-	}
-	putchar('\n');
+	char m;
 
+	for (m = 'a' ; m <= 'z' ; m++)
+		if (m != 'e' && m != 'q')
+			putchar(m);
+	putchar('\n');
 	return (0);
 }
