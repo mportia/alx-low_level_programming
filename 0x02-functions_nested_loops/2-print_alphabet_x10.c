@@ -16,7 +16,7 @@ for (m = 'a'; m <= 'z'; m++)
 {
 _putchar(m);
 }
-putchar('\n');
+_putchar('\n');
 i++
 }
 
